@@ -6,18 +6,20 @@
 }
 
 body {
-    background: #222;
+    background-image: url(img/Wallpaper.jpg);
+    background-size: cover;
 }
 
 .card {
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
     margin: 100px auto 0;
+    border: 1px solid #ebfffc;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    backdrop-filter: blur(30px);
 }
 
 .search {
