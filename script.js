@@ -1,8 +1,4 @@
-/* The line `const apiKey = "your_api_key_here";` is declaring a constant variable named `apiKey` and
-assigning it the value `"your_api_key_here"`. This is typically used as a placeholder to indicate
-that the actual API key should be inserted in place of `"your_api_key_here"`. Developers should
-replace this placeholder value with their actual API key obtained from the OpenWeatherMap API or any
-other API being used in the code. */
+/* The code snippet is setting up two constants `apiKey` and `apiUrl`. */
 const apiKey = "your_api_key_here";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 
